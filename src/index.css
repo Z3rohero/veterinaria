@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('../public/Veterinario.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Estilos generales para elementos */
+h1, h2, h3, p, button, input {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 24px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 32px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 48px;
+  }
+
+}
